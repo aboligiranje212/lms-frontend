@@ -9,7 +9,7 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/lms-frontend/" element={<Home />} />
         <Route path="/course/:courseId" element={<CourseDetails />} />
         <Route path="/course/:courseId/lesson/:lessonId" element={<LessonView />} />
       </Routes>
